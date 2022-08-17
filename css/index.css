@@ -1,0 +1,480 @@
+@import url(../css/navegacion.css);
+
+/* ----section-principal---- */
+#principal {
+  background-image: url(../imagenes/home.jpg);
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  padding-top: 98px;
+}
+.contenedor-pregunta {
+  text-align: right;
+  color: #fff;
+  margin-bottom: 67px;
+}
+.contenedor-pregunta h1 {
+  font-size: 42px;
+  font-weight: bold;
+}
+.contenedor-pregunta span {
+  color: #fdc058;
+}
+.contenedor-pregunta p {
+  font-size: 30px;
+}
+
+.contenedor-opciones {
+  display: flex;
+}
+.contenedor-opciones .caja {
+  text-align: center;
+  width: 288px;
+  height: 190px;
+  color: #fff;
+  font-size: 38px;
+  padding-top: 28px;
+  cursor: pointer;
+}
+
+.contenedor-opciones .caja:first-child {
+  background-color: #e74c3c;
+}
+.contenedor-opciones .caja:nth-child(2) {
+  background-color: #00b5ad;
+}
+.contenedor-opciones .caja:nth-child(3) {
+  background-color: #fbbd08;
+}
+.contenedor-opciones .caja:last-child {
+  background-color: #2185d0;
+}
+
+.contenedor-opciones h3 {
+  font-weight: bold;
+  font-size: 22px;
+}
+.contenedor-opciones p {
+  font-size: 16px;
+}
+
+/* -----psicologia-online------------- */
+/* ------lado 1------ */
+.contenedor-psicologia {
+  display: flex;
+  margin-top: 50px;
+}
+
+.contenedor-psicologia .caja {
+  width: 50%;
+  padding: 23px;
+}
+
+.psicologia-concepto figure {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 27px;
+}
+
+.psicologia-concepto figure img {
+  height: 48px;
+  width: 48px;
+  margin-right: 12px;
+}
+.psicologia-concepto figure h2 {
+  font-weight: bold;
+  font-size: 28px;
+  color: #5a5959;
+}
+
+.fases-terapia {
+  margin-top: 59px;
+}
+.fases-terapia__titulo {
+  display: flex;
+  margin-bottom: 22px;
+}
+.fases-terapia__titulo h4 {
+  font-weight: bold;
+  font-size: 22px;
+  color: #5a5959;
+  margin-bottom: 0;
+  margin-right: 12px;
+  align-self: center;
+}
+
+.fases-terapia__titulo a {
+  font-weight: bold;
+  font-size: 12px;
+  color: #fff;
+  background-color: #6db2da;
+  padding: 5px 24px;
+}
+
+.procedimiento div {
+  display: inline-block;
+  border-radius: 50%;
+  padding: 3px 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 4px;
+  margin-right: 5px;
+}
+.procedimiento .num-circle-uno {
+  background-color: #fbbd08;
+}
+
+.procedimiento .num-circle-dos {
+  background-color: #47a3da;
+}
+.procedimiento .num-circle-tres {
+  background-color: #e74c3c;
+}
+.procedimiento .num-circle-cuatro {
+  background-color: #00b5ad;
+}
+
+/* -----lado 2----------- */
+.psicologia-objetivo figure {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 27px;
+}
+
+.psicologia-objetivo figure img {
+  height: 48px;
+  width: 48px;
+  margin-right: 12px;
+}
+.psicologia-objetivo figure h2 {
+  font-weight: bold;
+  font-size: 28px;
+  color: #5a5959;
+}
+.psicologia-objetivo p span {
+  font-weight: bold;
+}
+
+.ventajas figure img {
+  height: 32px;
+  width: 32px;
+  align-self: center;
+}
+
+.ventajas figure {
+  border-bottom: 1px solid #cfd3d5;
+  margin: 0;
+  padding: 12px 0;
+}
+/* ----dudas-terapia----- */
+#dudas-terapia {
+  background-image: url(../imagenes/soporte-fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 292px;
+  text-align: center;
+  padding: 57px 306px;
+}
+#dudas-terapia p {
+  font-size: 30px;
+  color: #fff;
+}
+#dudas-terapia a {
+  font-size: 22px;
+  border: 1px solid #fff;
+  padding: 5px 35px;
+  color: #fff;
+}
+
+/* -------servicios-psicologia------- */
+.contenedor-servicios {
+  display: flex;
+}
+/* -----lado 1------- */
+#servicios-psicologia {
+  background-color: #ecf0f1;
+  padding-top: 79px;
+  padding-bottom: 39px;
+}
+.contenedor-servicios .caja {
+  width: 50%;
+}
+
+.servicios-online h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #5a5959;
+  margin-bottom: 30px;
+}
+
+.servicios-online figure {
+  display: flex;
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 4px;
+  box-shadow: 0px 8px 0px -1px rgba(218, 221, 222, 0.9);
+  margin-bottom: 31px;
+}
+.servicios-online img {
+  padding: 14px;
+}
+.servicios-online h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ----lado2------ */
+.descuento {
+  background-color: #e89d31;
+  width: 315px;
+  height: 350px;
+  margin: 96px 161px;
+  border-radius: 10px;
+  padding: 26px;
+  text-align: center;
+}
+
+.descuento p {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 0;
+}
+.descuento span {
+  font-size: 100px;
+  color: #fff;
+}
+.descuento a {
+  color: #000;
+  background-color: #fff;
+  font-weight: bold;
+  padding: 11px 13px;
+}
+/* ------contenedor-usuario-- */
+.contenedor-usuario {
+  display: flex;
+}
+.contenedor-usuario .caja {
+  flex-grow: 1;
+}
+/* ---lado1---- */
+.contenedor-usuario .caja h2 {
+  color: #7f8c8d;
+  font-size: 28px;
+  font-weight: bold;
+}
+.contenedor-usuario .caja p {
+  color: #7f8c8d;
+  font-size: 18px;
+  margin-bottom: 44px;
+}
+.area-personal {
+  background-color: #fff;
+  box-shadow: 0px 8px 0px -1px rgba(218, 221, 222, 0.9);
+  border-radius: 3px;
+  width: 405px;
+  height: 495px;
+  margin: 0px;
+}
+.area-personal > figure {
+  text-align: center;
+  padding: 25px 0;
+  margin: 0;
+}
+.area-personal > figure h3 {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 12px;
+  color: #5a5959;
+}
+.area-personal__beneficios {
+  padding: 0 23px;
+  margin: 0;
+}
+.area-personal__beneficios figure {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  margin: 0;
+  border-bottom: 1px solid #cfd3d5;
+}
+
+.area-personal a {
+  background-color: #fdc365;
+  color: #fff;
+  font-weight: bold;
+  padding: 6px 26px;
+  margin: 18px 64px;
+}
+/* ----lado2------ */
+.contenedor-usuario video {
+  margin-top: 113px;
+  width: 695px;
+  height: 400px;
+}
+
+/* --------ventajas-psicologia-online------ */
+#ventajas-psicologia-online {
+  padding: 50px 0;
+}
+.contenedor-ventajas {
+  display: flex;
+}
+
+.contenedor-ventajas .caja {
+  width: 50%;
+  padding: 14px 35px;
+}
+.wrapper-ventajas figure {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper-ventajas figure img {
+  width: 48px;
+  height: 48px;
+  margin-right: 15px;
+}
+
+.wrapper-ventajas figure h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #5a5959;
+}
+.listado-ventajas {
+  padding: 12px;
+}
+.listado-ventajas figure img {
+  width: 31px;
+  height: 31px;
+}
+.listado-ventajas figure {
+  border-bottom: 1px solid #cfd3d5;
+  margin: 0;
+  padding: 7px;
+}
+/* ----lado2----- */
+.testimonio h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #5a5959;
+}
+.contenido-testimonio {
+  background-color: #dfe6e9;
+  padding: 28px;
+}
+.contenido-testimonio span {
+  color: #e84393;
+  font-weight: bold;
+}
+.contenedor-botones {
+  text-align: right;
+}
+.contenedor-botones button {
+  color: #e03997;
+  padding: 0;
+  font-size: 31px;
+  margin-right: 8px;
+}
+.psionline-medios {
+  text-align: center;
+  width: 622px;
+  margin: 28px auto;
+}
+.psionline-medios h2 {
+  font-size: 28px;
+  color: #5a5959;
+  font-weight: bold;
+}
+.psionline-medios img:nth-child(2) {
+  width: 150px;
+  height: 92px;
+}
+.psionline-medios img:nth-child(3) {
+  width: 150px;
+  height: 61px;
+}
+.psionline-medios img:nth-child(4) {
+  width: 150px;
+  height: 76px;
+}
+.psionline-medios img:nth-child(5) {
+  width: 150px;
+  height: 43px;
+}
+.psionline-medios img:nth-child(6) {
+  width: 150px;
+  height: 92px;
+}
+.psionline-medios img:nth-child(7) {
+  width: 300px;
+  height: 55px;
+}
+/* -----------expertos-psicologia-online--- */
+#expertos-psicologia-online {
+  background-color: #ecf0f1;
+  height: 273px;
+  text-align: center;
+  padding: 45px 0;
+}
+
+#expertos-psicologia-online h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #5a5959;
+  margin-bottom: 12px;
+}
+.contenedor-instituciones img {
+  margin: 15px;
+}
+.contenedor-instituciones img:nth-child(1) {
+  width: 105px;
+  height: 67px;
+}
+.contenedor-instituciones img:nth-child(2) {
+  width: 105px;
+  height: 67px;
+}
+.contenedor-instituciones img:nth-child(3) {
+  width: 96px;
+  height: 96px;
+}
+.contenedor-instituciones img:nth-child(4) {
+  width: 125px;
+  height: 93px;
+}
+/* ----articulos-blog----- */
+#articulos-blog {
+  height: 551px;
+  background-color: #47a3da;
+  text-align: center;
+  padding: 46px 0;
+}
+#articulos-blog h3 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+  margin: 43px;
+}
+.contenedor-blog {
+  display: flex;
+}
+.contenedor-blog figure {
+  width: 260px;
+  height: 200px;
+  margin: 12px;
+}
+
+.contenedor-blog figure img {
+  width: 260px;
+  height: 200px;
+  border: 2px solid #fff;
+}
+.contenedor-blog a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}

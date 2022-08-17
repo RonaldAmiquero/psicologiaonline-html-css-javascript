@@ -1,0 +1,218 @@
+@import url(./index.css);
+#cognitivo-conductual {
+  padding-top: 48px;
+  margin-bottom: 57px;
+}
+.contenedor-cognitivo {
+  display: flex;
+}
+
+.contenedor-cognitivo > .caja {
+  width: 50%;
+  padding: 9px;
+}
+.terapia__titulo {
+  font-size: 34px;
+  font-weight: 700;
+}
+.terapia__titulo span {
+  font-size: 24px;
+  color: #47a3da;
+}
+.terapia__principios {
+  font-size: 17px;
+  font-weight: 700;
+}
+.terapia ul li {
+  margin-bottom: 7px;
+}
+
+/* --------caja 2 */
+.eficacia-terapia {
+  padding: 0 35px;
+}
+.eficacia-terapia div {
+  background-color: #dfe6e9;
+  padding: 27px;
+  margin-top: -4px;
+}
+.eficacia-terapia__imagen {
+  padding-top: 39px;
+  width: 100%;
+  height: 302px;
+  object-fit: cover;
+}
+.eficacia-terapia__titulo {
+  font-size: 23px;
+  color: #5a5959;
+  margin-bottom: 17px;
+  font-weight: 700;
+}
+
+.terapia-solucion {
+  background-color: #e89d31;
+  padding: 44px;
+  margin: 36px;
+  color: #fff;
+}
+
+.terapia-solucion__titulo {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+.terapia-solucion p {
+  margin-left: 26px;
+  margin-right: 13px;
+  font-size: 17px;
+}
+.botones {
+  text-align: center;
+}
+
+.terapia-solucion__boton {
+  background-color: #4a525f !important;
+  color: #fff !important;
+  font-weight: bold !important;
+  margin: 5px;
+}
+/*-----terapia-objetivos-*/
+#terapia-objetivos {
+  background-color: #ecf0f1;
+  padding: 73px 0;
+}
+
+.objetivo {
+  text-align: center;
+  padding: 0 195px;
+}
+.objetivo__titulo {
+  font-weight: 750;
+}
+
+.contenedor-items {
+  display: flex;
+}
+
+.contenedor-items .objetivo-item {
+  background-color: #ffeaa7;
+  margin: 14px;
+  padding: 20px;
+  width: 357px;
+  height: 298px;
+}
+.objetivo-item__icono {
+  text-align: center;
+  font-size: 53px;
+  color: #fbbd08;
+}
+
+/* ---------dudas--------- */
+#dudas {
+  background-image: url(../imagenes/soporte-fondo.jpg);
+  object-fit: cover;
+  background-position: center;
+  height: 300px;
+  padding: 79px 0;
+  text-align: center;
+}
+#dudas h4 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+#dudas a {
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 24px;
+  padding: 10px 40px;
+}
+
+/* -----terapia-funcionamiento------- */
+
+#terapia-funcionamiento {
+  padding: 58px 100px 8px 100px;
+}
+.contenedor-funcionamiento {
+  display: flex;
+}
+.contenedor-funcionamiento .caja {
+  width: 50%;
+  padding: 30px;
+}
+
+.terapia-fases__titulo {
+  font-weight: 700;
+  font-size: 28px;
+  color: #5a5959;
+}
+
+.imagen-funcionamiento {
+  width: 524.5px;
+  height: 524.5px;
+  margin-top: 23px;
+}
+
+/* -----terapia-tratamiento---- */
+#terapia-tratamiento {
+  padding: 0px 100px;
+}
+.contenedor-tratamiento {
+  display: flex;
+}
+
+.contenedor-tratamiento .caja {
+  width: 50%;
+  padding: 30px;
+}
+
+.contenedor-tratamiento aside {
+  background-color: #ecf0f1;
+  padding: 29px;
+}
+
+.contenedor-tratamiento aside h4 {
+  color: #5a5959;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 19px;
+}
+
+.pasos-tratamiento {
+  padding-left: 15px;
+}
+.pasos-tratamiento .procedimiento {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.procedimiento .num-circle {
+  border: 2px solid #74b9ff;
+  width: 29px;
+  border-radius: 50%;
+  color: #000;
+}
+.procedimiento span {
+  margin-left: 9px;
+}
+
+.llamada-accion {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 30px 0 18px;
+}
+.registrar-cuenta {
+  background-color: #fdc058;
+  color: #fff;
+  font-size: 20px;
+  padding: 7px 24px;
+  font-weight: 700;
+}
+
+.tratamiento__titulo {
+  font-weight: 700;
+  font-size: 24px;
+  color: #5a5959;
+  margin-bottom: 14px;
+}

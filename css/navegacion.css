@@ -1,0 +1,179 @@
+body {
+   font-family: 'Roboto Condensed', sans-serif;
+   font-size: 16px;
+   box-sizing: border-box;
+}
+.envoltorio {
+   max-width: 1133px;
+   margin: 0 auto;
+}
+
+/* ---header---- */
+/* ------usuario------------------------- */
+.contenedor-usuario {
+   display: flex;
+   justify-content: space-between;
+   padding-top: 9px;
+}
+
+.redes-sociales {
+   padding-left: 27px;
+}
+
+.redes-sociales a {
+   color: #95a5a6;
+   font-size: 24px;
+}
+
+.botones-usuario .iniciar-sesion {
+   background-color: #fdc468;
+   color: #fff;
+   font-weight: bold;
+   padding: 6px 19px;
+   margin-right: 8px;
+}
+.botones-usuario .registrarse {
+   background-color: #7abade;
+   color: #fff;
+   font-weight: bold;
+   padding: 6px 19px;
+}
+
+/* ----------------------- */
+.contenedor-infoempresa {
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 0;
+}
+
+/* -----navbar------------------ */
+nav {
+   background-color: #47a3da;
+   position: sticky;
+   top: 0px;
+}
+.barra-navegacion {
+   display: flex;
+   justify-content: space-between;
+   background-color: #47a3da;
+   height: 60px;
+}
+
+.navbar__navegacion ul {
+   padding: 0;
+}
+.navbar__navegacion > ul > li {
+   float: left;
+   padding: 18px 0;
+   list-style: none;
+   margin: 0 2px;
+}
+
+.navbar__navegacion ul li a {
+   text-decoration: none;
+   font-size: 17px;
+   color: #fff;
+}
+.navbar__navegacion ul li span {
+   font-size: 17px;
+   color: #fff;
+   cursor: pointer;
+}
+
+.navbar__buscar {
+   padding: 12px;
+}
+
+.navbar__buscar input {
+   width: 245px;
+}
+.navbar__buscar input::placeholder {
+   text-align: center;
+}
+
+nav li:hover {
+   background-color: rgba(0, 0, 0, 0.5);
+   transition: 1.5s;
+}
+nav > ul > li {
+   position: relative;
+}
+
+nav ul li span {
+   padding: 12px;
+}
+
+nav ul ul li {
+   list-style: none;
+   padding: 12px;
+   border-bottom: 1px solid rgb(214 198 198);
+}
+/* ---desplegable consulta */
+.desplegable-consulta {
+   display: none;
+   position: absolute;
+   background-color: #47a3da;
+   top: 100%;
+}
+
+nav li:hover .desplegable-consulta {
+   display: block;
+}
+
+/* ---desplegable psicologos */
+
+nav ul .desplegable-psicologos {
+   display: none;
+   position: absolute;
+   background-color: #47a3da;
+   top: 100%;
+}
+
+nav li:hover .desplegable-psicologos {
+   display: block;
+}
+
+/* -----terapias------ */
+nav ul .desplegable-terapias {
+   display: none;
+   position: absolute;
+   background-color: #47a3da;
+   top: 100%;
+}
+
+nav li:hover .desplegable-terapias {
+   display: grid;
+   grid-template-columns: repeat(3, 188px);
+   grid-template-rows: repeat(3, 62px);
+   gap: 0 11px;
+}
+/* ----desplegable-tarifas */
+nav ul .desplegable-tarifas {
+   display: none;
+   position: absolute;
+   background-color: #47a3da;
+   top: 100%;
+}
+
+nav li:hover .desplegable-tarifas {
+   display: block;
+}
+
+/* ----footer----- */
+footer {
+   background-color: #232933;
+   height: 130px;
+   font-size: 19px;
+   color: #fff;
+   padding: 35px 0px;
+   text-align: center;
+}
+
+.link-footer a {
+   color: #fff;
+   text-decoration: none;
+}
+
+.informacion-footer a {
+   text-decoration: none;
+}

@@ -1,0 +1,116 @@
+.contenido {
+  background-image: url(../imagenes/mujer-sillon-portatil-1400.webp);
+  background-repeat: no-repeat;
+}
+.contenido__informacion {
+  padding-top: 12rem;
+  padding-bottom: 2rem;
+}
+.contenido__informacion h1 {
+  line-height: 1rem;
+  font-size: 3rem;
+  color: cornsilk;
+  font-weight: 900;
+  margin-bottom: 3rem;
+}
+.contenido__informacion p {
+  padding-right: 50rem;
+  line-height: 2rem;
+  font-size: 1.4rem;
+  color: azure;
+}
+main div a {
+  display: inline-block;
+  background: #fdc058;
+  color: #fff;
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  padding: 12px;
+  margin-top: 2rem;
+  border-radius: 12px;
+}
+main div a:hover {
+  background: #eebd69;
+  color: #fff;
+  text-decoration: none;
+}
+.contenido1 {
+  background-color: #ecf0f1;
+}
+.contenido1 p {
+  padding-top: 20px;
+  margin-bottom: 3%;
+  line-height: 33px;
+  font-size: 20px;
+}
+.contenido1 h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #5a5959;
+}
+section img {
+  width: 80%;
+  margin-left: 30px;
+  margin-right: auto;
+}
+section {
+  background: #fff;
+  margin-top: 1.5rem;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+section h3 {
+  font-size: 22px;
+  color: #5a5959;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 12px;
+  margin-left: 25px;
+}
+.terapia-online section p {
+  font-size: 17px;
+  line-height: 1.5rem;
+  padding: 0 10px;
+}
+.terapia-online {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.04rem;
+  padding-bottom: 2rem;
+}
+.terapia-online div {
+  background: #ffeaa7;
+  width: 100%;
+  height: 23%;
+}
+.terapia-online div p {
+  padding: 0 10px;
+}
+
+.locationBusiness {
+  padding-top: 60px;
+  background-color: #ecf0f1;
+  padding-bottom: 60px;
+}
+
+.calltoaction-container {
+  display: flex;
+  justify-content: center;
+}
+.call img {
+  width: 740px;
+  height: 200px;
+}
+
+.imagecall img {
+  width: 200px;
+  height: 200px;
+}
+
+.map {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  box-shadow: 10px 10px 16px -4px rgba(0, 0, 0, 0.75);
+}

@@ -1,0 +1,202 @@
+@import url('./navegacion.css');
+
+main {
+  padding-top: 50px;
+}
+.desarrollo-personal-container {
+  display: flex;
+}
+
+.desarrollo-personal-container > .box:first-child {
+  width: 68%;
+}
+
+.desarrollo-personal {
+  padding-right: 20px;
+}
+
+aside {
+  padding: 0 31px;
+}
+
+.desarrollo-personal h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.solicitar-consulta-container {
+  display: flex;
+  background-color: #e89d31;
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+.solicitar-consulta-container .box {
+  width: 50%;
+}
+.persuasion {
+  padding: 12px;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+.persuasion a {
+  background-color: #4a525f;
+  color: #fff;
+  font-weight: bold;
+  margin: 12px 0;
+}
+.img-wrapper {
+  text-align: center;
+}
+.img-wrapper img {
+  width: 344px;
+  height: 214px;
+  padding: 12px;
+}
+
+.desarrollo-personal > h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.proceso-desarrollo-container {
+  display: flex;
+  text-align: center;
+  margin-bottom: 28px;
+}
+.proceso-desarrollo-container > .box {
+  width: 33.33%;
+}
+.proceso-desarrollo-container h3 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.proceso-desarrollo-container a {
+  color: #fff;
+  text-decoration: none;
+  padding: 4px 22px;
+  margin-bottom: 12px;
+}
+.proceso-desarrollo-container .box:first-child {
+  background-color: #e74c3c;
+}
+.proceso-desarrollo-container .box:nth-child(2) {
+  background-color: #00b5ad;
+}
+.proceso-desarrollo-container .box:nth-child(3) {
+  background-color: #2185d0;
+}
+
+/* ---terapia solucion */
+.terapia-solucion {
+  background-color: #e89d31;
+  padding: 35px;
+  text-align: center;
+  margin: 54px;
+  color: #fff;
+}
+
+.terapia-solucion__titulo {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+.terapia-solucion p {
+  margin-left: 26px;
+  margin-right: 13px;
+  font-size: 17px;
+}
+.botones {
+  text-align: center;
+}
+
+.terapia-solucion__boton {
+  background-color: #4a525f !important;
+  color: #fff !important;
+  font-weight: bold !important;
+  margin: 5px;
+}
+
+/* ---box 2 */
+.nav-desarollo-personal {
+  background-color: #f0f4f7;
+  margin-bottom: 30px;
+}
+.nav-desarollo-personal h2 {
+  font-size: 20px;
+  background-color: #3f90c1;
+  padding: 10px;
+  color: #fff;
+}
+.nav-desarollo-personal a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  color: #000;
+}
+
+aside img {
+  margin-bottom: 30px;
+}
+
+.telefono {
+  text-align: center;
+  background-color: #e8ecef;
+  color: #7f8c8d;
+  padding: 15px;
+  box-shadow: 0px 8px 0px -1px rgba(176, 179, 180, 0.678);
+  margin-bottom: 30px;
+}
+.telefono h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.telefono a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.telefono a span {
+  color: #7f8c8d;
+}
+
+.dudas {
+  text-align: center;
+  background-color: #c7ecee;
+  color: #000;
+  padding: 15px;
+  box-shadow: 0px 8px 0px -1px rgba(176, 179, 180, 0.678);
+  margin-bottom: 30px;
+}
+.dudas h3 {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 12px;
+}
+.dudas a {
+  color: #fff;
+  background-color: #4a525f;
+  font-weight: bold;
+  font-size: 14px;
+}
+.solucion {
+  text-align: center;
+  background-color: #ffbe76;
+  color: #fff;
+  padding: 15px;
+  box-shadow: 0px 8px 0px -1px rgba(176, 179, 180, 0.678);
+}
+.solucion h3 {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 12px;
+}
+.solucion a {
+  color: #fff;
+  background-color: #4a525f;
+  font-weight: bold;
+  font-size: 14px;
+}

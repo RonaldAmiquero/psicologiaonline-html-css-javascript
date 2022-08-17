@@ -1,0 +1,82 @@
+@import url(../css/navegacion.css);
+
+.container-metodo {
+  display: flex;
+}
+
+.container-metodo .box {
+  width: 50%;
+  padding: 40px 30px;
+}
+.container-metodo figure {
+  text-align: center;
+}
+.container-metodo figure img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 12px;
+}
+
+/* fases-terapia */
+#fases-terapia {
+  background-color: #636e72;
+}
+
+.fases-container {
+  display: flex;
+}
+
+.fases-container .box {
+  width: 50%;
+  padding: 40px 30px;
+}
+.fases-container h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  color: #bdc3c7;
+  margin-bottom: 35px;
+}
+.fases-container h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fdc058;
+  margin-bottom: 20px;
+}
+.fases-container p {
+  font-size: 16px;
+  color: #fff;
+}
+/* -----------expertos-psicologia-online--- */
+#expertos-psicologia-online {
+  background-color: #ecf0f1;
+  height: 273px;
+  text-align: center;
+  padding: 45px 0;
+}
+
+#expertos-psicologia-online h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #5a5959;
+  margin-bottom: 12px;
+}
+.contenedor-instituciones img {
+  margin: 15px;
+}
+.contenedor-instituciones img:nth-child(1) {
+  width: 105px;
+  height: 67px;
+}
+.contenedor-instituciones img:nth-child(2) {
+  width: 105px;
+  height: 67px;
+}
+.contenedor-instituciones img:nth-child(3) {
+  width: 96px;
+  height: 96px;
+}
+.contenedor-instituciones img:nth-child(4) {
+  width: 125px;
+  height: 93px;
+}
